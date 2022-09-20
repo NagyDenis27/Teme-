@@ -1,0 +1,112 @@
+
+
+
+html, body {
+  background: #ffffff;
+  font-family:  sans-serif;
+  padding: 1em;
+ border: none;
+ margin: none;
+}
+
+.contactus {
+  
+  background-color: rgba(231, 230, 230, 0.449);
+  display: flex;
+  justify-content: center;
+}
+p 
+{
+font-weight: 100;
+font-size: larger;
+}
+.inputs {
+ 
+margin-right: 550px;
+padding: 10px 30px;
+box-sizing: border-box;
+font-size: 12px;
+resize: none;
+
+}
+
+.name { border: 2px solid #ccc;}
+.email{ border: 2px solid #ccc;}
+.subject { border: 2px solid #ccc;}
+
+.message
+
+{ 
+  position:absolute;
+  top:10px;
+  left: 400px;
+  
+
+}
+.text 
+  {
+
+    top: 200px;
+    left:200px;
+    width: 400px;
+    height: 230px;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+   }
+  
+  #input-submit 
+    {
+      position: absolute;
+      bottom: 260px;
+      left:1000px;
+     
+     cursor: pointer;
+     border-radius: 10px;
+     padding: 5px 15px;
+     color: white;
+     border-color: cornflowerblue;
+     
+     background-color: cornflowerblue;
+     }
+    
+     
+
+     .container {  
+      position: fixed;
+      top:150px;
+      left:300px;
+      background-color: rgba(231, 230, 230, 0.449);
+      padding: 2%;
+      border-radius: 10px;
+      height: 300px;
+       border-radius: 1%;
+       
+    
+    }
+  .social {
+ 
+ position: relative;
+ top:400px;
+
+  }
+
+.social h3 {
+  text-align: center;
+}
+
+.social p {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+ .social hr {
+
+  width: 800px;
+ }
+
+
+

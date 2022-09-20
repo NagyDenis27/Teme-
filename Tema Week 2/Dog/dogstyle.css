@@ -1,0 +1,35 @@
+
+ 
+.nav{  top:200px;}
+  .breeds {
+    position: relative;
+    text-align: left;
+    top:150px;
+  }
+  .vl{
+    height: 550px;
+    border-right: 2px solid rgb(10, 59, 2);
+    position:absolute;
+    bottom: 70px;
+    right: 60%;
+}
+.Beagle {
+    width: 600px;
+    position:relative;
+    margin-left: 350px ;
+    margin-right: 1px;
+    position: relative;
+    bottom: -30px;
+}
+
+.bg {
+
+    position:absolute;
+    height: 200px;
+    border-radius: 50%;
+    bottom:350px;
+    left:200px;
+}
+
+
+

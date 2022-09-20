@@ -1,0 +1,128 @@
+
+
+.Table
+{
+    position: absolute;
+    border: 2px;
+    left:24%;
+    top:40%;
+    display:table;
+    border-spacing: 10px;
+    background-color:white;
+}
+
+.row1
+{
+  
+   display:table-row;
+   width:auto;
+   border-radius: 1cm;
+   
+}
+
+.row2
+{
+   display:flex;
+   width:auto;
+   border-radius: 1cm;
+   justify-content: space-between;
+   
+}
+.row3
+{
+   display:flex;
+   width:auto;
+   border-radius: 1cm;
+   justify-content: space-between;
+    padding-top: 0.2cm;
+}
+.row4
+{
+   display:table-row;
+   width:auto;
+   border-radius: 1cm;
+   
+}
+.cell1
+{    
+    height: 35px;
+    float:left;
+    display:table-column;
+    width:700px;
+    background-color:rgb(132, 115, 186);
+    border-radius: 0.1cm;
+    
+    
+}
+.cell2
+{
+    height: 35px;
+    float:left;
+    display:table-column;
+    width:345px;
+    background-color: greenyellow;
+    border-radius: 0.1cm;
+    border
+}
+.cell3
+{
+    height: 35px;
+    float:left;
+    display:table-column;
+    width: 345px;
+    background-color: greenyellow;
+    border-radius: 0.1cm;
+    
+    
+}
+.cell4
+{
+    height: 35px;
+    float:left;
+    display:table-column;
+    width:165px;
+    background-color: rgb(20, 160, 144);;
+    border-radius: 0.1cm;
+    
+}
+.cell5
+{
+    height: 35px;
+    float:left;
+    display:table-column;
+    width:165px;
+    background-color: rgb(20, 160, 144);;
+    border-radius: 0.1cm;
+    
+}
+.cell6
+{
+    height: 35px;
+    float:left;
+    display:table-column;
+    width:165px;
+    background-color: rgb(20, 160, 144);;
+    border-radius: 0.1cm;
+    
+}
+.cell7
+{
+    height: 35px;
+    float:left;
+    display:table-column;
+    width:165px;
+    background-color: rgb(20, 160, 144);
+    border-radius: 0.1cm;
+    
+}
+.cell8
+{
+    height: 35px;
+    float:left;
+    display:table-column;
+    width:700px;
+    background-color:rgb(132, 115, 186);
+    border-radius: 0.1cm;
+    
+}
+

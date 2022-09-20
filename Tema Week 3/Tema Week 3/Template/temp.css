@@ -1,0 +1,83 @@
+.body {
+
+margin: 20px;
+font-family: Arial;
+
+}
+
+.top-nav { overflow: hidden;display: flex;justify-content: space-evenly;text-decoration: none;padding: 10px 10px;background-color:darkgreen;}
+
+.h2      {text-align: center;}
+
+a        {text-decoration: none; color: white;}
+
+.autotuningnews   { text-align: center;  text-shadow: 2px 2px 6px darkgreen; }
+
+
+hr {      background-color: darkgreen;  height: 5px; }
+
+.p {      border-radius: 10px;
+    
+          padding:80px 20px;
+          background-color: rgba(128, 128, 128, 0.203);
+          position:absolute;
+          left:15px;
+          right:55%; 
+     }
+
+.p2 {     border-radius: 10px;
+          padding:25px 20px;
+          background-color: rgba(128, 128, 128, 0.203);
+          position:fixed;
+          right:15px;
+          left:55%;
+     }
+
+.p3 {      border-radius: 10px;
+           bottom: 10px;
+           padding:25px 20px;
+           background-color: rgba(128, 128, 128, 0.203);
+           position:fixed;
+           right:15px;
+           left:55%;
+     }
+
+.pictures {       height: 100px;
+                  display: flex;
+                  justify-content: space-around;
+     }
+
+.logo {           height: 90px;
+                  position: absolute;
+                  left: 275px;
+                  top:5px;
+     }
+
+.gr1 {     border-radius: 10px;
+           width: 648px ;
+           height: 538px;
+           position: fixed;
+           left: 820px;
+           opacity: 10%;
+     }
+
+.gr2 {      border-radius: 10px;
+            width: 648px ;
+            height: 538px;
+            position: fixed;
+            right: 820px;
+            opacity: 15%;
+     }
+
+.bottom-bar {       overflow: hidden;
+                    position: fixed;
+                    bottom: 0;
+                    width: 100%;
+                    text-decoration: none;
+                     background-color:darkgreen;
+                     height: 10px;
+            }
+
+
+
+
