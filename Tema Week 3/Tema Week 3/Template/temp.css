@@ -1,83 +1,125 @@
-.body {
-
-margin: 20px;
-font-family: Arial;
-
+body {
+	        background: rgb(255,255,255);
+          background: radial-gradient(circle, rgb(99, 99, 99) 0%, rgba(0,0,0,1) 100%);
+          height: 1000px;
 }
 
-.top-nav { overflow: hidden;display: flex;justify-content: space-evenly;text-decoration: none;padding: 10px 10px;background-color:darkgreen;}
+.navtop {  
+           height:50px;   
+           display:flex ;  
+           justify-content:  space-around ;  
+           text-decoration: none;
+           text-align: center;
+          
+}
 
-.h2      {text-align: center;}
+.home, .news, .contact, .about, .services {
+      
+            background-color: #5a5858;
+            border-radius: 10px;
+            height: 25px;
+            padding: 15px;
+            box-shadow: 10px 5px 5px rgb(255, 255, 255);
+ } 
 
-a        {text-decoration: none; color: white;}
+a {
+            font-weight: 500;
+            text-decoration: none;
+            color: white;
+            font-weight: 800;
+  }
 
-.autotuningnews   { text-align: center;  text-shadow: 2px 2px 6px darkgreen; }
+hr {      
+            
+            background-color:   #000000;  
+            height: 7px; 
 
+  }
+ 
+.h2 {
+            text-align: center;
+  }
 
-hr {      background-color: darkgreen;  height: 5px; }
+.autotuningnews { 
+            
+            text-align: center;  
+            text-shadow: 7px 2px 30px  #fffefe; color: #ffffff; 
+  }
 
-.p {      border-radius: 10px;
+.p1, .p2, .p3 {
+
+            width: 400px;
+            height: 225px;
+            text-align: center;
+            font-weight: 400;
+            padding: 120px;
+            word-spacing: 5px;
+            border: 50px;
+  }
+
+.par1, .par2, .par3 {
+  
+            color: #ffffff;
+            font-size: large;
+            font-weight: 500;
+            text-transform: capitalize;
+            padding: 5px;
+  }
+
+.contend {   
+  
+            display: flex;
+            justify-content: center;
+            align-items: center;
+  }
+
+.gr1{
+
+            width: 400px;
+            height: 225px;
+            position: relative;
+            border:7px solid black;
+            border-radius: 5px;
+            border-style:double;
+  }
+
+.gr2{
+
+            width: 400px;
+            height: 225px;
+            position: relative;
+            border:7px solid black;
+            border-radius: 5px;
+            border-style:double
+  }
+
+.gr3 {
+
+            width: 400px;
+            height: 225px;
+            position: relative;
+            border:7px solid black;
+            border-radius: 5px;
+            border-style:double
+  }
+
+.bottom {
+
+            position: sticky;
+            top:100%;
+            background-color:  #5a5858;
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            align-items: center;
+            justify-content: space-evenly;
+}
+ 
+span {
+        
+            font-weight: 700;
+            color: #fffefe;
+}
+
     
-          padding:80px 20px;
-          background-color: rgba(128, 128, 128, 0.203);
-          position:absolute;
-          left:15px;
-          right:55%; 
-     }
-
-.p2 {     border-radius: 10px;
-          padding:25px 20px;
-          background-color: rgba(128, 128, 128, 0.203);
-          position:fixed;
-          right:15px;
-          left:55%;
-     }
-
-.p3 {      border-radius: 10px;
-           bottom: 10px;
-           padding:25px 20px;
-           background-color: rgba(128, 128, 128, 0.203);
-           position:fixed;
-           right:15px;
-           left:55%;
-     }
-
-.pictures {       height: 100px;
-                  display: flex;
-                  justify-content: space-around;
-     }
-
-.logo {           height: 90px;
-                  position: absolute;
-                  left: 275px;
-                  top:5px;
-     }
-
-.gr1 {     border-radius: 10px;
-           width: 648px ;
-           height: 538px;
-           position: fixed;
-           left: 820px;
-           opacity: 10%;
-     }
-
-.gr2 {      border-radius: 10px;
-            width: 648px ;
-            height: 538px;
-            position: fixed;
-            right: 820px;
-            opacity: 15%;
-     }
-
-.bottom-bar {       overflow: hidden;
-                    position: fixed;
-                    bottom: 0;
-                    width: 100%;
-                    text-decoration: none;
-                     background-color:darkgreen;
-                     height: 10px;
-            }
-
-
-
 

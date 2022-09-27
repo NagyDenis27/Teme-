@@ -1,6 +1,10 @@
-body {font-family: cursive;}
+
+
+
+
+
 .modal {background-color: hwb(261 34% 57% / 0.142) ;
-         position: fixed; left: 0; top: 0;
+         left: 0; top: 0;
          width: 100%;
          height: 100%;
          display: flex;
@@ -8,41 +12,64 @@ body {font-family: cursive;}
          align-items: center;
         }
 .container {
-
+      
     background-color: rgb(255, 255, 255);
-    width: 50%;
-    height: 20%;
+    width: 250px;
+    height: 200px;
     padding: 15px;
-    border-radius: 50px;
+    border-radius: 25px;
 
 }
 
-.header {  display: flex;
+span {
+
+    font-weight: 650;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+ .titlex {
+
+    display: flex;
     justify-content: space-between;
 
 }
-.header button {
+
+input {
+
+    width: 250px;
+    height: 25px;
+}
+
+.btn {
 
     border:none;
-    background-color: aliceblue;
-    width: 20px;
-    height: 20px;
+    background-color:  darkcyan;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
+    border-radius: 7px;
 }
 
-   .footer { 
-    position:relative;
-    left: 100px;
+button{
+
+    border: none;
+    color: white;
+    background-color: darkcyan;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 3px;
+    
+
+}
+.footer {
+
+display: flex;
+justify-content: flex-end;
 
 }
 
-.footer button {
-padding-left: 20%;
-border:none ;
-background-color: darkcyan;
-padding: 10px 10px;
-border-radius:7px ;
-cursor: pointer;
-}
+
+    
 
 
