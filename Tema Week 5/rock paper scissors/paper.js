@@ -2,7 +2,7 @@ function  play(){
 
     var  choices = ["rock", "paper", "scissors"];
 
-    var userInput = choices[Math.floor(Math.random()*3)];
+    var userInput = choices[(Math.random()3*)];
 
              console.log("User  chose" + ` ${userInput}`);
 
