@@ -3,20 +3,22 @@
 const oddOrEven = (random) => {
   let number = random;
   if (number % 2 == 0) {
-    console.log("Numarul" + " " + number + " " + "este par!");
+    console.log(number + "Even");
   } else {
-    console.log("Numarul" + " " + number + " " + "este impar!");
+    console.log(number + "odd");
   }
 };
 numbers = oddOrEven(10);
 
 //primeste un numar necunoscut de parametrii de tip number care returneaza suma lor:
 
-const sum = (par1, par2) => {
-  const num1 = par1;
-  const num2 = par2;
-
-  console.log(num1 + num2);
+const sumCalc = (...numbers) => {
+  let sum = 0;
+  numbers.forEach((element) => {
+    sum = sum + element;
+  });
+  const nec = sum(5, 10);
+  console.log(SumCalc);
 };
 const necunoscut = sum(10, 10);
 
@@ -28,10 +30,17 @@ const person = {
     street: "Lalaland 12",
   },
 };
-const clonePerson = { ...person }; //Clonare
+const clonePerson = { ...person };
 
 const { name } = person;
-console.log(name); //Destructurare
+console.log(name);
+
+//Destructurati color si doors :
+
+const {
+  settings1: { color, doors },
+} = car;
+console.log(color + doors);
 
 //Clonati obiect car, pe care-l mergeuim cu modelYear: 2022 si alte settings - wheels, engine:
 
@@ -43,16 +52,7 @@ const car = {
 const clonecar = {
   ...car,
   modelYear: "2022",
-  settings: { wheels: "4", engine: "2,0L" },
+  settings: { ...car.settings, wheels: "4", engine: "2,0L" },
 };
 const mergedcar = { ...car, ...clonecar };
-console.log(mergedcar); //nu sunt sigur daca functioneaza corect!!
-
-//Destructurati color si doors :
-
-const {
-  settings: { color, doors },
-} = car;
-console.log(
-  "The car is " + color + " " + "and it has" + " " + doors + " " + "doors "
-);
+console.log(mergedcar);
