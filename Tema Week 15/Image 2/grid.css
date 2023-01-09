@@ -1,0 +1,49 @@
+.col {
+  color: rgb(255, 255, 255);
+
+  background-color: rgb(7, 86, 189);
+}
+
+.imgTechnology {
+  position: relative;
+  background-image: url("/technology.jpg");
+  background-size: cover;
+  height: 400px;
+}
+
+#tech {
+  color: rgb(255, 255, 255);
+  background-color: rgb(7, 86, 189);
+  height: 40px;
+  position: absolute;
+  width: 300px;
+  right: 20px;
+  bottom: 5px;
+}
+
+.card-body {
+  background: rgb(163, 161, 161);
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.card-img-top {
+  height: 90px;
+  width: 240px;
+}
+
+.hr1 {
+  border-top: 3px dashed;
+  color: white;
+}
+
+.hr2 {
+  border-top: 3px dashed;
+  color: black;
+}
+
+.imgRandom {
+  height: 220px;
+  width: 220px;
+  border-radius: 5px;
+}

@@ -1,0 +1,21 @@
+.img1 {
+  height: 650px;
+  background-image: url("/PC.jpg");
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.img2 {
+  height: 650px;
+  background-image: url("/Laptop.jpg");
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.img3 {
+  height: 650px;
+  background-image: url("/ipad.jpg");
+  background-size: cover;
+
+  border-radius: 20px;
+}

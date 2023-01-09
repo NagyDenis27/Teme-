@@ -1,0 +1,13 @@
+.card-body {
+  background: rgb(163, 161, 161);
+  border-radius: 20px;
+  margin: 10px;
+}
+.card-img-top {
+  height: 90px;
+  width: 240px;
+}
+
+.card {
+  width: 23rem;
+}

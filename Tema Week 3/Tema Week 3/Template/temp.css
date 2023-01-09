@@ -1,0 +1,125 @@
+body {
+	        background: rgb(255,255,255);
+          background: radial-gradient(circle, rgb(99, 99, 99) 0%, rgba(0,0,0,1) 100%);
+          height: 1000px;
+}
+
+.navtop {  
+           height:50px;   
+           display:flex ;  
+           justify-content:  space-around ;  
+           text-decoration: none;
+           text-align: center;
+          
+}
+
+.home, .news, .contact, .about, .services {
+      
+            background-color: #5a5858;
+            border-radius: 10px;
+            height: 25px;
+            padding: 15px;
+            box-shadow: 10px 5px 5px rgb(255, 255, 255);
+ } 
+
+a {
+            font-weight: 500;
+            text-decoration: none;
+            color: white;
+            font-weight: 800;
+  }
+
+hr {      
+            
+            background-color:   #000000;  
+            height: 7px; 
+
+  }
+ 
+.h2 {
+            text-align: center;
+  }
+
+.autotuningnews { 
+            
+            text-align: center;  
+            text-shadow: 7px 2px 30px  #fffefe; color: #ffffff; 
+  }
+
+.p1, .p2, .p3 {
+
+            width: 400px;
+            height: 225px;
+            text-align: center;
+            font-weight: 400;
+            padding: 120px;
+            word-spacing: 5px;
+            border: 50px;
+  }
+
+.par1, .par2, .par3 {
+  
+            color: #ffffff;
+            font-size: large;
+            font-weight: 500;
+            text-transform: capitalize;
+            padding: 5px;
+  }
+
+.contend {   
+  
+            display: flex;
+            justify-content: center;
+            align-items: center;
+  }
+
+.gr1{
+
+            width: 400px;
+            height: 225px;
+            position: relative;
+            border:7px solid black;
+            border-radius: 5px;
+            border-style:double;
+  }
+
+.gr2{
+
+            width: 400px;
+            height: 225px;
+            position: relative;
+            border:7px solid black;
+            border-radius: 5px;
+            border-style:double
+  }
+
+.gr3 {
+
+            width: 400px;
+            height: 225px;
+            position: relative;
+            border:7px solid black;
+            border-radius: 5px;
+            border-style:double
+  }
+
+.bottom {
+
+            position: sticky;
+            top:100%;
+            background-color:  #5a5858;
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            align-items: center;
+            justify-content: space-evenly;
+}
+ 
+span {
+        
+            font-weight: 700;
+            color: #fffefe;
+}
+
+    
+

@@ -1,0 +1,15 @@
+#c {
+  width: 10rem;
+  border: none;
+}
+
+#unders {
+  position: relative;
+  top: 30px;
+}
+.card-img-top {
+  height: 90px;
+  width: 240px;
+  border: 1px solid black;
+  border-radius: 5px;
+}

@@ -1,0 +1,25 @@
+.imgTechnology {
+  position: relative;
+  background-image: url("/src/technology.jpg");
+  background-size: cover;
+  height: 400px;
+}
+#tech {
+  color: rgb(255, 255, 255);
+  background-color: rgb(7, 86, 189);
+  height: 40px;
+  position: absolute;
+  width: 300px;
+  right: 20px;
+  bottom: 5px;
+}
+
+#textContent {
+  background-color: rgb(7, 86, 189);
+  height: 200px;
+  width: 200px;
+  color: white;
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
